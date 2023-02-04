@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Recipe Recommendation</h1>
+    <form>
+      <label for="likes">Ingredients you like (comma-separated):</label><br>
+      <input type="text" id="likes" name="likes"><br><br>
+      <label for="dislikes">Ingredients you dislike (comma-separated):</label><br>
+      <input type="text" id="dislikes" name="dislikes"><br><br>
+    </form> 
+    <button onclick="recommendRecipe()">Recommend Recipe</button>
+    <div id="output"></div>
+  </body>
+</html>
